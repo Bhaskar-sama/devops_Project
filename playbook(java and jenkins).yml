@@ -1,0 +1,12 @@
+- name: playbook
+  hosts: all
+  become: yes
+  become_user: root
+  tasks:
+   - name: update
+     apt:
+     update_cache: true
+   - name: install java
+     apt:
+       name: /opt/jdk-8u60-linux-x64.rpm
+       state: present

@@ -1,0 +1,8 @@
+- host: localhost
+   become: true
+   name: installing in master
+   task:
+    - name: implement master script
+      script: master.sh
+
+      

@@ -1,0 +1,10 @@
+
+- name: install mysql
+  hosts: web
+  become: yes
+  become_user: root
+  tasks:
+   - name: mysql
+     apt: 
+      name: mysql-server
+      state: latest
