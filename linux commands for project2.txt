@@ -1,0 +1,90 @@
+ sudo apt update
+    3  wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+    4  echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+    5  sudo apt update && sudo apt install terraform
+    6  clear
+    7  which terraform
+    8  clear
+    9  vi main.tf
+   10  terraform init
+   11  vi main.tf
+   12  terraform init
+   13  vi main.tf
+   14  terraform plan
+   15  vi main.tf
+   16  terraform plan
+   17  vi main.tf
+   18  terraform plan
+   19  terraform apply
+   20  vi main.tf
+   21  terraform destroy
+   22  clear
+   23  terrafrom plan
+   24  clear
+   25  ls
+   26  terraform init
+   27  terraform plan
+   28  terrafrom apply
+   29  terraform apply
+   30  clear
+   31  which terraform
+   32  terraform init
+   33  vi main.tf
+   34  terraform plan
+   35  terraform apply
+   36  terraform destroy
+   37  terraform init
+   38  terraform apply
+   39  clear
+   40  which ansible
+   41  clear
+   42  terraform init
+   43  terraform apply
+   44  ls
+   45  ssh-keygen
+   46  ls
+   47  cd .ssh
+   48  ls
+   49  cat id_rsa
+   50  cat id_rsa.pub 
+   51  sudo vi /etc/anisble/hosts
+   52  cd /etc
+   53  ls
+   54  cd /etc/ansible
+   55  ls
+   56  sudo vi hosts
+   57  ansible -m ping all
+   58  cd
+   59  vi script1.sh
+   60  vi script2.sh
+   61  clear
+   62  ls
+   63  vi script2.sh
+   64  rm script2.sh 
+   65  ls
+   66  vi script2.sh
+   67  vi script3.sh
+   68  ls
+   69  sudo vi play.yaml
+   70  ansible-playbook play.yaml --syntax-check
+   71  ansible-playbook play.yaml --check
+   72  ansible-playbook play.yaml 
+   73  /var/lib/jenkins/secrets/initialAdminPassword
+   74  sudo /var/lib/jenkins/secrets/initialAdminPassword
+   75  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+   76  which jenkins
+   77  sudo cat .ssh/id_rsa.pub 
+   78  sudo cat .ssh/id_rsa 
+   79  clear
+   80  history
+   81  cat script1.sh 
+   82  cat script2.sh 
+   83  cat script3.sh 
+   84  cat play.yaml 
+   85  clear
+   86  cat main.tf
+   87  cat script3.sh 
+   88  ls
+   89  terraform destroy
+   90  clear
+   91  which jenkins
